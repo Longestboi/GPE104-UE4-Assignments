@@ -1,0 +1,42 @@
+Generating report for minidump
+
+Application version 4.26.0.0
+ ... built from changelist 0
+
+OS version Linux 5.10.2-051002-generic (network name: andrew-HP-Laptop-15-dw2xxx)
+Running 4 x86_64 processors (8 logical cores)
+Exception was "Ensure condition failed: ComponentModel->Surfs.IsValidIndex(Node.iSurf) [File:/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Engine/Private/ModelRender.cpp] [Line: 408]"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:693]
+libUE4Editor-Core.so!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:178]
+libUE4Editor-Core.so!FUnixCrashContext::CaptureStackTrace() [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:288]
+libUE4Editor-Core.so!ReportEnsure(char16_t const*, int) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:900]
+libUE4Editor-Core.so!FDebug::EnsureFailed(char const*, char const*, int, char16_t const*, int) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:425]
+libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, char16_t const*, ...) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:491]
+libUE4Editor-Engine.so!FModelSceneProxy::GetDynamicMeshElements(TArray<FSceneView const*, TSizedDefaultAllocator<32> > const&, FSceneViewFamily const&, unsigned int, FMeshElementCollector&) const::'lambda1'()::operator()() const [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Engine/Private/ModelRender.cpp:408]
+libUE4Editor-Engine.so!FModelSceneProxy::GetDynamicMeshElements(TArray<FSceneView const*, TSizedDefaultAllocator<32> > const&, FSceneViewFamily const&, unsigned int, FMeshElementCollector&) const [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Engine/Private/ModelRender.cpp:408]
+libUE4Editor-Renderer.so!FSceneRenderer::GatherDynamicMeshElements(TArray<FViewInfo, TSizedDefaultAllocator<32> >&, FScene const*, FSceneViewFamily const&, FGlobalDynamicIndexBuffer&, FGlobalDynamicVertexBuffer&, FGlobalDynamicReadBuffer&, TArray<unsigned char, TMemStackAllocator<0u> > const&, TArray<unsigned char, TMemStackAllocator<0u> > const&, FMeshElementCollector&) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneVisibility.cpp:2910]
+libUE4Editor-Renderer.so!FSceneRenderer::ComputeViewVisibility(FRHICommandListImmediate&, FExclusiveDepthStencil::Type, TArray<FViewCommands, TInlineAllocator<4u, TSizedDefaultAllocator<32> > >&, FGlobalDynamicIndexBuffer&, FGlobalDynamicVertexBuffer&, FGlobalDynamicReadBuffer&) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneVisibility.cpp:4045]
+libUE4Editor-Renderer.so!FDeferredShadingSceneRenderer::InitViews(FRHICommandListImmediate&, FExclusiveDepthStencil::Type, FILCUpdatePrimTaskData&) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneVisibility.cpp:4304]
+libUE4Editor-Renderer.so!FDeferredShadingSceneRenderer::Render(FRHICommandListImmediate&) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp:1422]
+libUE4Editor-Renderer.so!RenderViewFamily_RenderThread(FRHICommandListImmediate&, FSceneRenderer*) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Renderer/Private/SceneRendering.cpp:3597]
+libUE4Editor-Renderer.so!TEnqueueUniqueRenderCommandType<FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::FDrawSceneCommandName, FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::$_45>::DoTask(ENamedThreads::Type, TRefCountPtr<FGraphEvent> const&) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/RenderCore/Public/RenderingThread.h:183]
+libUE4Editor-Renderer.so!TGraphTask<TEnqueueUniqueRenderCommandType<FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::FDrawSceneCommandName, FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::$_45> >::ExecuteTask(TArray<FBaseGraphTask*, TSizedDefaultAllocator<32> >&, ENamedThreads::Type) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:886]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:709]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksUntilQuit(int) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:600]
+libUE4Editor-RenderCore.so!RenderingThreadMain(FEvent*) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:372]
+libUE4Editor-RenderCore.so!FRenderingThread::Run() [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:526]
+libUE4Editor-Core.so!FRunnableThreadPThread::Run() [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUE4Editor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/home/andrew/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:185]
+libpthread.so.0!UnknownFunction(0x9608)
+libc.so.6!clone(+0x42)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!
