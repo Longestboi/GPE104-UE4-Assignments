@@ -862,3 +862,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.10-20.34.07:351][127]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Crashed, SessionId={B0813C2A-F113-4B77-88F8-890BA3E45484}
 [2021.02.10-20.34.07:351][127]LogAnalytics: Display: [UEEditor.UnrealEngine.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.0-0+++UE4+Release-4.26
 [2021.02.10-20.34.07:545][127]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Crashed, SessionId={E700FDC6-6975-4557-B871-58CAF4504390}
+[2021.02.10-20.47.21:084][650]SourceControl: Source control is disabled
+[2021.02.10-20.47.24:940][650]LogSlate: Window 'Source Control Login' being destroyed
+[2021.02.10-21.08.21:757][687]LogVulkanRHI: AcquireNextImage() failed due to the outdated swapchain, not even attempting to present.
+[2021.02.10-21.08.34:972][926]LogSlate: Window 'Source Control Login' being destroyed
