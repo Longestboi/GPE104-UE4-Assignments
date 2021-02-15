@@ -2,73 +2,6 @@
 	"AssetInfoVersion": 1,
 	"ShaderCodeToAssets": [
 		{
-			"ShaderMapHash": "60AF0AAC6637C5592A4B3AEC94D49911D7629F1C",
-			"Assets": [
-				"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "B8EFEC77B6D754F0BF73E0A74D9286894F13A1D2",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "72FABDAD239EB3849924CD15B4B10E132F097B58",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "6ABC9BDD33C67F9B3FA05B3F44C00675E5C6E092",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "5557B5052E113764C23198A327F179F306E6490E",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "7795B8C9C97A1AE8F67E0BE3F82706A578EB45E8",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset",
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "C149A550308E8C03981D13A29F8F3DA2CD03E3E4",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "7064B6FE5A2EDCD1536F968C930D5DDB7F2738CC",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "FE6AA08EC7D22D296A2194AA2530022D8DC0B3C8",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "AF1A316DFE3D7AE866105E46D6CF4838C614894B",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "1E919FBDE31985E2BE232D464BE9FD5461E58072",
-			"Assets": [
-				"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "C7B33AAB937967CD925ABF3E4AFC4BC1A4ABDB00",
 			"Assets": [
 				"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset"
@@ -130,6 +63,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "60AF0AAC6637C5592A4B3AEC94D49911D7629F1C",
+			"Assets": [
+				"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "46CA41D639FAC95D90B5CBA2D4E514CC67FB7F87",
 			"Assets": [
 				"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset"
@@ -178,6 +117,43 @@
 			]
 		},
 		{
+			"ShaderMapHash": "B8EFEC77B6D754F0BF73E0A74D9286894F13A1D2",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "72FABDAD239EB3849924CD15B4B10E132F097B58",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "6ABC9BDD33C67F9B3FA05B3F44C00675E5C6E092",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "5557B5052E113764C23198A327F179F306E6490E",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7795B8C9C97A1AE8F67E0BE3F82706A578EB45E8",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset",
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "C149A550308E8C03981D13A29F8F3DA2CD03E3E4",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "DB8639486BB3D08E775CA88EC310A779B6F5E3E7",
 			"Assets": [
 				"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset"
@@ -187,6 +163,30 @@
 			"ShaderMapHash": "3F770766BF535A86068AF5C992C95231D080B0DB",
 			"Assets": [
 				"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "7064B6FE5A2EDCD1536F968C930D5DDB7F2738CC",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FE6AA08EC7D22D296A2194AA2530022D8DC0B3C8",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AF1A316DFE3D7AE866105E46D6CF4838C614894B",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "1E919FBDE31985E2BE232D464BE9FD5461E58072",
+			"Assets": [
+				"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset"
 			]
 		},
 		{
@@ -202,15 +202,21 @@
 			]
 		},
 		{
-			"ShaderMapHash": "3F5C325732FD84C8A2B7077738C74FB5AC5A7E2C",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-			]
-		},
-		{
 			"ShaderMapHash": "3EC71BCF4B9639CC20402AADF13E8036EB1C140D",
 			"Assets": [
 				"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "8D7EF8DDB2AB6179CE25DF8CBBAA8DBB23C77103",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "32727227E112E6B68CC687E469178689B72C85A6",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
 			]
 		},
 		{
@@ -220,9 +226,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "27B8189AD00BA01A278EE4ED3DB768D6C1E592A9",
+			"ShaderMapHash": "319274D80CF728BD3C2CBB2F262E759DD5D9D59F",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
 			]
 		},
 		{
@@ -250,63 +256,45 @@
 			]
 		},
 		{
+			"ShaderMapHash": "B793DBB957E6835B2C60E583266328AA9631E070",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "0623EB3512648B291DABC7CA7DD516675D891D01",
 			"Assets": [
 				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "1A7C0028B9E8514F869912E22BFE68F51F9416E0",
+			"ShaderMapHash": "A635C8E8F3BD971C995E5DB0E14E4BF6BDF8C1DF",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Metal_Rust.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "6B476BDF693643E5CF262DCA793938FC38CE4057",
+			"ShaderMapHash": "5F6033DA00CC9149F3E466BC90DCDD5D85AE0233",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Ground_Grass.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "EBA3AF2A8B61A67CAF4100A667C8B3C653A80183",
+			"ShaderMapHash": "22728DA9CDD360234919E9D9D051242790BD67BE",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Rock_Slate.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "54CF9305F68DA4D28777C9BB41469B57B460C07C",
+			"ShaderMapHash": "ECF499C14ED0A680C92D9EBCF06CAEA7CF46AD16",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "0C0B3F51186C30A26E847A47BF048F69628D8C0B",
+			"ShaderMapHash": "4A4DEE041C1A47E42DAB619370F75C95CB8B1B7E",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "0B05E086052AD0A06BDDBF9E69EF49BD033FFB60",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "0D8B124215AF7A2E0F8E58F4D8A45BA5E531CE2F",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "FF5B96A6B091736CD734688E0D2F6605422F5935",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "52043C15A93467FF1F37BF52D4E188D0810B1CEA",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Props/Materials/M_Lamp.uasset"
 			]
 		},
 		{
@@ -364,9 +352,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "4A4DEE041C1A47E42DAB619370F75C95CB8B1B7E",
+			"ShaderMapHash": "1A7C0028B9E8514F869912E22BFE68F51F9416E0",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
 			]
 		},
 		{
@@ -383,51 +371,21 @@
 			]
 		},
 		{
-			"ShaderMapHash": "B793DBB957E6835B2C60E583266328AA9631E070",
+			"ShaderMapHash": "77C57B7B1244077EBB17F37404DB943871C87815",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "319274D80CF728BD3C2CBB2F262E759DD5D9D59F",
+			"ShaderMapHash": "4251FAC6DFA140F85479C5CA07A6C40B056039ED",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
 			]
 		},
 		{
-			"ShaderMapHash": "A635C8E8F3BD971C995E5DB0E14E4BF6BDF8C1DF",
+			"ShaderMapHash": "27B8189AD00BA01A278EE4ED3DB768D6C1E592A9",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "5F6033DA00CC9149F3E466BC90DCDD5D85AE0233",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "22728DA9CDD360234919E9D9D051242790BD67BE",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "ECF499C14ED0A680C92D9EBCF06CAEA7CF46AD16",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "8D7EF8DDB2AB6179CE25DF8CBBAA8DBB23C77103",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "32727227E112E6B68CC687E469178689B72C85A6",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Basic_Floor.uasset"
 			]
 		},
 		{
@@ -479,6 +437,72 @@
 			]
 		},
 		{
+			"ShaderMapHash": "6B476BDF693643E5CF262DCA793938FC38CE4057",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "EBA3AF2A8B61A67CAF4100A667C8B3C653A80183",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "54CF9305F68DA4D28777C9BB41469B57B460C07C",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0C0B3F51186C30A26E847A47BF048F69628D8C0B",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0B05E086052AD0A06BDDBF9E69EF49BD033FFB60",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "0D8B124215AF7A2E0F8E58F4D8A45BA5E531CE2F",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "FF5B96A6B091736CD734688E0D2F6605422F5935",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "52043C15A93467FF1F37BF52D4E188D0810B1CEA",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "02E2AD068A87807F31602F40B8EE6A602017F589",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Props/Materials/M_Frame.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "3FA05D45B9640C772D2B317E4BE5B004379D41B2",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Glass.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "F4830C4166647CBBFA33CB4A8189FF0B7C007251",
+			"Assets": [
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+			]
+		},
+		{
 			"ShaderMapHash": "859BB0C8E0C576843D8EA51F95FE035F499688BF",
 			"Assets": [
 				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
@@ -494,36 +518,6 @@
 			"ShaderMapHash": "44F3DC50B227C748A7B258DD29B7D86C533CCC42",
 			"Assets": [
 				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Props/Materials/M_Chair.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "02E2AD068A87807F31602F40B8EE6A602017F589",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Props/Materials/M_Frame.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "77C57B7B1244077EBB17F37404DB943871C87815",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "4251FAC6DFA140F85479C5CA07A6C40B056039ED",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "3FA05D45B9640C772D2B317E4BE5B004379D41B2",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_Glass.uasset"
-			]
-		},
-		{
-			"ShaderMapHash": "F4830C4166647CBBFA33CB4A8189FF0B7C007251",
-			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Props/Materials/M_TableRound.uasset"
 			]
 		},
 		{
@@ -545,9 +539,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "C4A3FC16BB14C7481B6D105A55D3FE0EC0ACA832",
+			"ShaderMapHash": "3F5C325732FD84C8A2B7077738C74FB5AC5A7E2C",
 			"Assets": [
-				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+			]
+		},
+		{
+			"ShaderMapHash": "AC2D2EBAAA58CB3445FB2B1B41E06563AD192611",
+			"Assets": [
+				"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset"
 			]
 		},
 		{
@@ -557,9 +557,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "AC2D2EBAAA58CB3445FB2B1B41E06563AD192611",
+			"ShaderMapHash": "C4A3FC16BB14C7481B6D105A55D3FE0EC0ACA832",
 			"Assets": [
-				"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset"
+				"../../../../Unreal Projects/Sprite_Mover/Content/StarterContent/Materials/M_AssetPlatform.uasset"
 			]
 		},
 		{
