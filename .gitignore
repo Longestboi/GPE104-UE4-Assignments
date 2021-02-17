@@ -1,7 +1,26 @@
-*/Saved/Logs/
+*/Saved/
 Lecture*
-*/Saved/Config/CrashReportClient/
-*/Saved/Crashes/
-*/Saved/Cooked/
-*/Saved/StagedBuilds/
 */Build/
+
+# Cache
+*/DerivedDataCache/*
+
+# Compiled stuff
+*/Intermediate/*
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
