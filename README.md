@@ -9,6 +9,9 @@
 ### Sprite_Mover
 Submission to the "Sprite_Mover" Assignment. 
 
+### Project 2
+Submission to the "Project 2- 2D Side Scroller" assignment.
+
 ### The_Room
 A recreation of my dorm room.
 
